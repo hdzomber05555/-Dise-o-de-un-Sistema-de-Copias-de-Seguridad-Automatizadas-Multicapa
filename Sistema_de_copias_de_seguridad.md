@@ -36,19 +36,19 @@ _(Explica por qué has elegido cada uno.)_
 
 ### a. Tipo de hardware elegido
 
-- Opción: NAS  (Network Attached Storage)
-- Marca/modelo: QNAP TS-473A
-- Sistema operativo: Ubuntu
+- Opción: *NAS*  *(Network Attached Storage)*
+- Marca/modelo: *QNAP TS-473A*
+- Sistema operativo: *Ubuntu*
 
 ### b. Tipo de RAID
 
-- Elegido: RAID 10
-- Justificación: El RAID 10 ofrece mejoras en el rendimiento y también una tolerancia a fallos, lo malo que es mas caro que los demas raids.
+- Elegido: *RAID 10*
+- Justificación: *El RAID 10 ofrece mejoras en el rendimiento y también una tolerancia a fallos, lo malo que es mas caro que los demas raids.*
 
 ### c. Software de gestión
 
-- Software elegido: OpenMediaVault
-- Función principal: tiene un almacenamiento centralizado con redundancia, servicios de red para compartir archivos en la red, gestión avanzada de permisos y usuarios, virtualización y contenedores como por ejemplo un Docker.
+- Software elegido: *Veeam Backup & Replication*
+- Función principal: *ayuda a las empresas de todos los tamaños a lograr una protección de datos completa para todas las cargas de trabajo, bien sean físicas, virtuales o cloud.*
 
 ---
 
@@ -56,22 +56,19 @@ _(Explica por qué has elegido cada uno.)_
 
 ### a. Tipo de servidor remoto
 
-- Opción elegida: Nube
-- Justificación: acceso desde cualquier ubicación, alta disponibilidad, mantenimiento gestionado por el proveedor sin preocuparse del hardware, capia de datos con una protección contra fallos regionales.
+- Opción elegida: *Nube (google)*
+- Justificación: *acceso desde cualquier ubicación, alta disponibilidad, mantenimiento gestionado por el proveedor sin preocuparse del hardware, capia de datos con una protección contra fallos regionales.*
 
 ### b. Seguridad de la sincronización
 
 - ¿Cómo se programa la sincronización?
   
-  Utiliza Backup incremental automatizado, su frecuencia es diaria para datos críticos, y semanal o mensual para archivos menos sensibles.
+  *Abres Drive, luego haces clic en configuración-preferencias, luego a la izquierda le das clic en Carpetas de tu ordenador, y por ultimo selecciona una opción: Sincronizar con Google Drive, ahora los archivos se reflejaran a la carpeta sincronizada*
 - ¿Qué cifrado se usa?
   
-  utiliza varios tipos de cifrado como el TLS 1.2/1.2 que protege datos durante la transferencia, y el cifrado en reposo como el AES-256 aplicado antes de subir a la nube.
+  *Utiliza el protocolo de cifrado S/MIME se utiliza en coordinacion con las firmas digitales de S/MIME para garantizar la integridad del correo*
 - ¿Se puede activar doble autenticación?
-
-  Si, en la mayoria de proveedores como por ejemplo:
-  Wasabi: que utiliza la doble autentificación de Google
-  Azure: que utiliza la autentificación en dos pasos
+  *Para activar el 2FA en Google tienes que acceder al siguiente enlace [google.com](https://www.google.com/landing/2step/) y darle a empieza. Una vez dentro, habrá que introducir la contraseña para poder verificar así la identidad*
 
 ---
 
@@ -105,6 +102,9 @@ _(Puedes añadir más si lo crees necesario)_
 ## Bibliografía / Fuentes consultadas
 
 - Fuente 1: Reddit
-- Fuente 2: ______________________
+- Fuente 2: [www.3digits.es](https://www.3digits.es/veeam-backup-replication#:~:text=Veeam%20Backup%26Replication%2C%20la%20herramienta%20de,sean%20f%C3%ADsicas%2C%20virtuales%20o%20cloud.)
+- [Google Help](https://support.google.com/mail/answer/13317990?hl=es#:~:text=Protocolo%20de%20cifrado&text=509%20en%20los%20que%20conf%C3%ADe,garantizar%20la%20integridad%20del%20correo.)
+- [Google Help](https://support.google.com/drive/answer/10838124?hl=es)
+- [](https://www.ciberseguridad.eus/hogar-seguro/como/como-se-activa-el-factor-de-doble-autenticacion-2fa-en-google#:~:text=Para%20activar%20el%202FA%20en,poder%20verificar%20as%C3%AD%20la%20identidad.)
 - ...
 
