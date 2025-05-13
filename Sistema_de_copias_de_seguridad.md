@@ -67,7 +67,9 @@ _(Explica por qué has elegido cada uno.)_
 - ¿Qué cifrado se usa?
   
   *Utiliza el protocolo de cifrado S/MIME se utiliza en coordinacion con las firmas digitales de S/MIME para garantizar la integridad del correo*
+  
 - ¿Se puede activar doble autenticación?
+  
   *Para activar el 2FA en Google tienes que acceder al siguiente enlace [google.com](https://www.google.com/landing/2step/) y darle a empieza. Una vez dentro, habrá que introducir la contraseña para poder verificar así la identidad*
 
 ---
